@@ -4,8 +4,9 @@ package com.example.b1_prak1b_13120220008;
 import java.io.File;
 
 public class DataFileGambar {
-    private String pathfile;
     private File file;
+    private String pathfile;
+
 
     public DataFileGambar (String pathFile, File file) {
         this.pathfile = pathFile;
